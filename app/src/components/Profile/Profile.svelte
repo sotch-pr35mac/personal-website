@@ -51,13 +51,13 @@ const navigate = (url, localLink) => {
 		<div class="about-section--text">
 			<h3>Hi, I'm Preston.</h3>
             <p>
-                I am a senior software engineer and conversational experience architect who is passionate and dedicated to his work. I excel at building beautiful software and robust conversations in fast-paced environments. I am experienced in building products, delivering for clients, and managing a team.
+		I am a senior software and NLP engineer who is passionate about and dedicated to work. I am experienced in building products, delivering for clients, and managing a team. I excel at building robust and testable software in fast-paced environments.
             </p>
             <p>
-                I work at the intersection of people and technology. Passionate about bringing sustainability and morale to work, I am self-motivated and can effectively explain complex situations in easy to understand terms.
+		I work at the intersection of people and technology. Passionate about bringing sustainability and morale to work, I am self-motivated and can effectively explain complex situations in easy-to-understand terms.
             </p>
             <p>
-                Seeking a company to grow with where I can meaningfully contribute to company culture, mentor team members, and build robust software experiences.
+		Seeking a company where I can meaningfully contribute to company culture, mentor team members, build robust software, and expand my knowledge of natural language processing.
             </p>
 			<div class="about-button-group">
 				<Clickable on:click={() => navigate(resumeLink, true)}>

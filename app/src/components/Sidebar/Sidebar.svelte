@@ -3,9 +3,8 @@ import {
 	GithubIcon,
 	LinkedinIcon,
 	MailIcon,
-    AlignRightIcon
+	AlignRightIcon
 } from 'svelte-feather-icons';
-
 import SidebarLink from './SidebarLink.svelte';
 import SidebarIcon from './SidebarIcon.svelte';
 
@@ -116,8 +115,7 @@ const iconLinks = [
             Preston
         </h2>
 		<p class="sidebar--brand-subtitle">
-			Software Engineer<br/>
-            & Experience Architect
+			Software Engineer &amp;<br />NLP Enthusiast
 		</p>
 	</div>	
 	<div class="sidebar--links">
