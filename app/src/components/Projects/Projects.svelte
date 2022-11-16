@@ -5,8 +5,26 @@ import ProjectCard from './ProjectCard.svelte';
 
 const projects = [
     {
+        name: 'Core Technologies Team',
+        description: 'Led a team responsible for maintaining and developing core AI technologies and designing and delivering services fundamental to the core product offering. Made technical contributions to the roadmap; also acted as hiring and project manager for the team.' ,
+        role: 'Engineering Manager [Clinc]',
+        start: '2022',
+        end: '2022',
+        image: '../img/projects/clinc.png',
+        link: 'http://clinc.com'     
+    },
+    {
+        name: 'Natural Language Understanding Features',
+        description: 'Used Rust and rust_bert to implement topic detection and machine translation research projects for production inference in a high-performance computing environment.',
+        role: 'Software Engineer [Deepgram]',
+        start: '2022',
+        end: '2022',
+        image: '../img/projects/dg-nlu.png',
+        link: 'https://deepgram.com/product/speech-understanding/'
+    },
+    {
         name: 'Syng',
-        description: 'Designed, developed, and maintain open-source, cross-platform Chinese-to-English dictionary app and study toolkit.',
+	description: 'Designed, developed, and maintain an open-source, cross-platform Chinese-to-English dictionary app and study toolkit.',
         role: 'Personal Project',
         start: '2016',
         end: 'Present',
@@ -15,7 +33,7 @@ const projects = [
     },
     {
         name: 'AI Testing',
-        description: 'Designed, developed, and maintained AI Testing feature of Conversational AI Platform. Started from requirements document and developed project scope with input from relevant stakeholders. Designed wireframes, developed front-end, and maintained project after launch.',
+	description: 'Designed, developed, and maintained the AI Testing feature of the Conversational AI Platform. Started from requirements document and developed project scope with input from relevant stakeholders. Designed wireframes, developed front-end, and maintained project after launch. ',
         role: 'Software Engineer [Clinc]',
         start: '2018',
         end: '2019',
@@ -24,7 +42,7 @@ const projects = [
     },
     {
         name: 'Custom Banking Conversational AI',
-        description: 'Scoped, developed, and maintained conversational AI solution for existing and potential banking customers. Maintained over 40 training and testing datasets. Worked closely with client to ensure successful project delivery.',
+	description: 'Scoped, developed, and maintained conversational AI solutions for existing and potential banking customers. Maintained over 40 training and testing datasets. Worked closely with the clients to ensure successful project delivery.',
         role: 'Solutions Architect [Clinc]',
         start: '2019',
         end: '2020',
@@ -33,7 +51,7 @@ const projects = [
     },
     {
         name: 'Finie',
-        description: `Lead team of developers to build the company's flagship conversational experience product. Conducting code and dataset reviews. Work closely with the product team to create a roadmap and deliver on milestones.`,
+	description: `Led a team of developers to build the company’s flagship conversational AI product. Used Gitlab CI/CD to develop a data version control system. Conducted code and dataset reviews. Work closely with the product team to create a roadmap and deliver on milestones.`,
         role: 'Tech Lead [Clinc]',
         start: '2020',
         end: 'Present',
